@@ -1,0 +1,23 @@
+nav.main-header {
+  width: 100%;
+}
+
+nav.main-header a {
+  font-size: 20px;
+  color: #666;
+}
+
+nav.main-header a:first-child {
+  float: left;
+}
+
+nav.main-header a:last-child {
+  float: right;
+}
+
+/*float 해제하기 - float 된 요소의 부모요소에 적용*/
+nav.main-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}

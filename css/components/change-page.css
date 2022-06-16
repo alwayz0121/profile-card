@@ -1,0 +1,31 @@
+nav.change-page {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.change-page a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+nav.change-page a:first-child {
+  background-color: #35e0f7;
+  box-shadow: 5px 5px 10px rgba(74, 255, 255, 0.7);
+}
+nav.change-page a:nth-child(2) {
+  background-color: #55f5cd;
+  box-shadow: 5px 5px 10px rgba(85, 245, 178, 0.7);
+}
+nav.change-page a:nth-child(3) {
+  background-color: #ff80df;
+  box-shadow: 5px 5px 10px rgba(255, 128, 223, 0.7);
+}
+nav.change-page a:nth-child(4) {
+  background-color: #a794fd;
+  box-shadow: 5px 5px 10px rgba(167, 148, 253, 0.7);
+}

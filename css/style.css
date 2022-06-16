@@ -1,0 +1,36 @@
+@charset 'utf-8';
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+@import "components/nav-bar.css";
+@import "components/change-page.css";
+
+@import "screens/main-profile.css";
+
+* {
+  /*전체 스타일 초기화*/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ebfaff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+section {
+  width: 340px; /*높이는 자식요소 들어오면 자동 지정 되도록 설정 X*/
+  padding: 30px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}

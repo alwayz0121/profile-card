@@ -1,0 +1,68 @@
+/*프로필 카드 메인 소개*/
+.main-profile {
+  width: 100%;
+  text-align: center;
+}
+.main-profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+}
+.main-profile__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.main-profile__explain {
+  font-weight: 500;
+  font-size: 13px;
+  color: #bbb;
+  margin-bottom: 30px;
+}
+
+.main-profile__more {
+  display: block;
+  width: 180px;
+  height: 32px;
+  margin: 0px auto 20px;
+  background-color: #444;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  line-height: 32px; /*높이와 동일하게 맞추면 가운데 정렬이 된다*/
+  text-align: center;
+  background: linear-gradient(45deg, #4affff, #35e0f7);
+  box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
+}
+
+/*프로필 카드 하단*/
+.main-contact {
+  margin-bottom: 25px;
+}
+
+.main-contact li {
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.main-contact li i {
+  width: 20%;
+  text-align: center;
+  color: #555;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #eee;
+}
+
+.main-contact li span {
+  font-size: 11px;
+  font-family: "orbitron";
+  color: #555;
+  letter-spacing: 1px;
+}
